@@ -20,7 +20,10 @@ class Tos {
 
 
         }
+	
         System.out.println("Heads: "+a+", Tails: "+b);
+	if(a>b)System.out.println("You won!");
+	else System.out.println("You lost!");
 
 
     
